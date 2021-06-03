@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
 }
 
 a {
@@ -20,6 +21,14 @@ h5,
 h6,
 p {
     margin: 0;
+}
+img {
+    border: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 .common-title{
     text-align: center;
@@ -398,12 +407,14 @@ nav ul li a:hover {
     background: rgba(0, 0, 0,.7);
     padding: 100px 0;
 }
-
+#portfolio-part .item-inner {
+        width: 91%;
+}
+/* 
 #portfolio-part .overlay .item:nth-child(even){
     display: flex;
     flex-direction: column-reverse;
-
-}
+} */
 
 #portfolio-part .overlay .img{
     margin-bottom: 25px;
@@ -438,7 +449,7 @@ nav ul li a:hover {
     color: #000;
 }
 #portfolio-part .overlay .img .img-overlay i:hover{
-    background: #3144e7;
+    background: #fec600;
     color: rgb(255, 255, 255);
 }
 
@@ -453,12 +464,6 @@ nav ul li a:hover {
 #portfolio-part .overlay .common-title p{
     color: #f1f1f1;
 }
-/* #portfolio-part .overlay .item:nth-child(even){
-    display: flex;
-    flex-direction: column-reverse;
-
-} */
-/* *********************************PORTFOLIO END********************************** */
 /* *********************************SERVICE START********************************** */
 #service-part{
     position: relative;
