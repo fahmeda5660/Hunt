@@ -1,24 +1,12 @@
-$('.venobox').venobox(); 
 
-
-$('.service-slider').slick({
+$('.port_slider').slick({
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    vertical: true,
-    centerMode: true,
-    centerPadding: "0",
-    arrows: true,
-    prevArrow: '<i class="fa fa-chevron-up prev"></i>',
-    nextArrow: '<i class="fa fa-chevron-down next"></i>',
-  });
-$('.port-slider').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: false,
     autoplay: true,
-    autoplaySpeed: 1000,
-
+    autoplaySpeed: 500,
+    arrows: true,
+    prevArrow: '<i class="fa fa-chevron-left prev"></i>',
+    nextArrow: '<i class="fa fa-chevron-right next"></i>',
   });
-
+  
